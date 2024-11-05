@@ -1,0 +1,56 @@
+:root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.autor {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1rem;
+}
+
+.drop-area {
+  border: 2px dashed #646cff;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.drop-area:hover {
+  background-color: #f0f0f0;
+  border-color: #535bf2;
+}
+
+.drop-area h2 {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+.drop-area p {
+  margin: 0.5rem 0;
+}
+
+.drop-area input[type="file"] {
+  display: none;
+}
+
+.drop-area .button {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s, border-color 0.25s;
+}
+
+.drop-area .button:hover {
+  background-color: #646cff;
+  border-color: #535bf2;
+}
